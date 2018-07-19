@@ -1,8 +1,10 @@
 [travis]: https://travis-ci.org/pug-ci/pug-worker
+[codeclimate]: https://codeclimate.com/github/bzurkowski/wisper-resque
 
 # Wisper::Resque
 
 [![Build Status](https://img.shields.io/travis/bzurkowski/wisper-resque.svg)][travis]
+[![Codeclimate](https://api.codeclimate.com/v1/badges/0fd3c1b2eef4cf2ea201/maintainability)][codeclimate]
 
 Provides [Wisper](https://github.com/krisleech/wisper) with asynchronous event publishing using [Resque](https://github.com/resque/resque).
 
