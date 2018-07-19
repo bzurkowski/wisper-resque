@@ -1,4 +1,8 @@
+[travis]: https://travis-ci.org/pug-ci/pug-worker
+
 # Wisper::Resque
+
+[![Build Status](https://img.shields.io/travis/bzurkowski/wisper-resque.svg)][travis]
 
 Provides [Wisper](https://github.com/krisleech/wisper) with asynchronous event publishing using [Resque](https://github.com/resque/resque).
 
