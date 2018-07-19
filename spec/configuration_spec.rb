@@ -7,6 +7,6 @@ RSpec.describe 'Configuration' do
 
   it 'configures resque as default async broadcaster' do
     expect(configuration.broadcasters[:async])
-      .to be_an_instance_of(Wisper::Broadcasters::ResqueBroadcaster)
+      .to be_an_instance_of(Wisper::ResqueBroadcaster)
   end
 end
