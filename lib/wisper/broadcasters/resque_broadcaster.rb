@@ -1,7 +1,7 @@
 module Wisper
   module Broadcasters
     class ResqueBroadcaster
-      def broadcast(listener, _publisher, event, *args)
+      def broadcast(listener, _publisher, event, args)
         ::Resque.enqueue listener, event, *args
       end
 
